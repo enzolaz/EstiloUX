@@ -1,15 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: yellow;
+    background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* configurações genericas */
+
+.container-grid {
+    width: 80%;
+    margin: o auto;
+    background-color: purple;
 }
 
 header {
     background-color: gray;
 }
 
-a{
-    color: red;
+header .header-flex{
+    display: flex;
+    justify-content: space-between;
 }
 
+header h1{
+    padding-left: 3pc;
+    color: white;
+    font-weight: 300;
+    border: 2px solid white;
+}
+
+header h1 #UX {
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+}
 header nav a {
     color: white;
+}
+
+nav {
+ padding-left:;
+ border: 2px solid white;
+}
+
+main p{
+    text-align: justify;
+    padding-right: 57pc;
+    padding-left: 3pc;
+}
+
+footer {
+    margin-top: 12pc;
+    background-color: gray;
+    height: 42px;
+}
+
+footer p{
+    color: white;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-left: 3pc;    
+}
+main img{
+    padding-top: 4pc;
+    padding-left: 3pc;
+}
+h2{
+    padding-left: 3pc;
+}
+p{
+    padding-left: 2pc;
+}
+h3{
+    padding-left: 60pc;
 }
