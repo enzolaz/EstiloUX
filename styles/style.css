@@ -83,3 +83,14 @@ main .colunas-flex{
     display: flex;
     justify-content: space-between;
 }
+
+main h2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main p{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
