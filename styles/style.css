@@ -1,23 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 
+/* Reset de propriedades */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-background-color: lightgray;
-font-family: 'Quicksand', sans-serif;
+    background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
 }
 
-/* Formatação das Fontes */
+.container-grid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: gray;
+}
+
+header .header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header h1{
     color: white;
     font-weight: 300;
 }
 
 header h1 #UX {
-    color: white;
     font-weight: 600;
     font-style: italic;
 }
@@ -25,25 +42,6 @@ header h1 #UX {
 header nav a {
     color: white;
     text-decoration: none;
-}
-
-footer p{
-    color: white;
-    font-weight: 600;
-}
-
-/* configurações genericas */
-
-.container-grid {
-    width: 80%;
-    margin: o auto;
-}
-
-header {
-    background-color: gray;
-}
-
-header .header-flex{
     display: flex;
     justify-content: space-between;
 }
@@ -55,15 +53,33 @@ header nav {
     align-items: center;
 }
 
+/* Rodapé */
+
+footer p{
+    color: white;
+    font-weight: 600;
+}
+
 footer {
     background-color: gray;
-    height: 50px;
-    display: flex;
 }
 
 
 /* Main */
 
-.colunas-flex{
-    
+main .coluna1{
+    width: 75%;
+}
+
+main .coluna1 #lapis{
+    width: 100%;
+}
+
+main .coluna2{
+    width: 20%;
+}
+
+main .colunas-flex{
+    display: flex;
+    justify-content: space-between;
 }
