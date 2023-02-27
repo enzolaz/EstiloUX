@@ -12,7 +12,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-.container-grid {
+.grid-layout {
     width: 80%;
     margin: 0 auto;
 }
@@ -20,7 +20,7 @@ body{
 /* Cabeçalho */
 
 header {
-    background-color: gray;
+    background-color: rgb(92, 92, 92);
 }
 
 header .header-flex{
@@ -61,7 +61,7 @@ footer p{
 }
 
 footer {
-    background-color: gray;
+    background-color:rgb(92, 92, 92);
 }
 
 
