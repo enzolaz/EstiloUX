@@ -23,6 +23,10 @@ body{
 
 header {
     background-color: #676767;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 header .header-flex{
@@ -52,22 +56,20 @@ header nav {
     width: 200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 /* Rodapé */
 
-footer p{
-    color: white;
-    font-weight: 600;
+footer {
+    background-color: #727272;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color:#676767;
+footer p {
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
 }
 
 /* Main */
