@@ -8,19 +8,21 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color:   #edeced;
     font-family: 'Quicksand', sans-serif;
 }
 
 .grid-layout {
     width: 80%;
+    max-width: 1200px;
+    min-width: 920px;
     margin: 0 auto;
 }
 
 /* Cabeçalho */
 
 header {
-    background-color: rgb(92, 92, 92);
+    background-color: #676767;
 }
 
 header .header-flex{
@@ -61,14 +63,18 @@ footer p{
 }
 
 footer {
-    background-color:rgb(92, 92, 92);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color:#676767;
 }
-
 
 /* Main */
 
 main .coluna1{
     width: 75%;
+    background-color:white;
 }
 
 main .coluna1 #lapis{
@@ -82,6 +88,8 @@ main .coluna2{
 main .colunas-flex{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 main h2{
@@ -93,4 +101,17 @@ main p{
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify;
+    margin-bottom: 10px;
+}
+
+main h3{
+    border-bottom: gray 1px solid;
+    width: 100%;
+    text-align: justify;
+}
+
+main .coluna2 article{
+    display: flex;
+    background-color: white;
+    margin-bottom: 100px;
 }
